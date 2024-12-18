@@ -1,0 +1,16 @@
+PODS:
+  - CometChatSDK (4.0.54)
+
+DEPENDENCIES:
+  - CometChatSDK (= 4.0.54)
+
+SPEC REPOS:
+  trunk:
+    - CometChatSDK
+
+SPEC CHECKSUMS:
+  CometChatSDK: e44f4c15674788cec853d457b3ac60b066f9c634
+
+PODFILE CHECKSUM: 1bc557b6ccd71e63e656b5247bc68113bca29f39
+
+COCOAPODS: 1.16.2

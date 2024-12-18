@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		04BB5F6326B6AF77D35EF77F /* Pods_comet_chat_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DC407AE833E4A2D6F9BB5D /* Pods_comet_chat_app.framework */; };
+		27695FB575D3EDC79060ABC1 /* Pods_comet_chat_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE69566DF763924652BFBF /* Pods_comet_chat_appTests.framework */; };
+		E662C53817A0802EBE7E4168 /* Pods_comet_chat_app_comet_chat_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBC0314C71683DB9DFD7FF1 /* Pods_comet_chat_app_comet_chat_appUITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		84CD5E3B2D12E5730057CB84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09FAC23F41467AB459E7ED67 /* Pods-comet-chat-app-comet-chat-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comet-chat-app-comet-chat-appUITests.release.xcconfig"; path = "Target Support Files/Pods-comet-chat-app-comet-chat-appUITests/Pods-comet-chat-app-comet-chat-appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		12F520514730752C7032584A /* Pods-comet-chat-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comet-chat-app.debug.xcconfig"; path = "Target Support Files/Pods-comet-chat-app/Pods-comet-chat-app.debug.xcconfig"; sourceTree = "<group>"; };
+		2C5BA3E7307DABBCACC19C05 /* Pods-comet-chat-app-comet-chat-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comet-chat-app-comet-chat-appUITests.debug.xcconfig"; path = "Target Support Files/Pods-comet-chat-app-comet-chat-appUITests/Pods-comet-chat-app-comet-chat-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EBC0314C71683DB9DFD7FF1 /* Pods_comet_chat_app_comet_chat_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_comet_chat_app_comet_chat_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AE69566DF763924652BFBF /* Pods_comet_chat_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_comet_chat_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		831FE2A7A0CBCC0908CE9B43 /* Pods-comet-chat-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comet-chat-appTests.debug.xcconfig"; path = "Target Support Files/Pods-comet-chat-appTests/Pods-comet-chat-appTests.debug.xcconfig"; sourceTree = "<group>"; };
 		84CD5E242D12E5720057CB84 /* comet-chat-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "comet-chat-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CD5E3A2D12E5730057CB84 /* comet-chat-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "comet-chat-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CD5E442D12E5730057CB84 /* comet-chat-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "comet-chat-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9752EDEC0D7979F7076F4C7 /* Pods-comet-chat-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comet-chat-appTests.release.xcconfig"; path = "Target Support Files/Pods-comet-chat-appTests/Pods-comet-chat-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4AE3D3F05661BA3B697A0FA /* Pods-comet-chat-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comet-chat-app.release.xcconfig"; path = "Target Support Files/Pods-comet-chat-app/Pods-comet-chat-app.release.xcconfig"; sourceTree = "<group>"; };
+		D8DC407AE833E4A2D6F9BB5D /* Pods_comet_chat_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_comet_chat_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BB5F6326B6AF77D35EF77F /* Pods_comet_chat_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27695FB575D3EDC79060ABC1 /* Pods_comet_chat_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E662C53817A0802EBE7E4168 /* Pods_comet_chat_app_comet_chat_appUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B0A222687C464ECCFFD4B99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8DC407AE833E4A2D6F9BB5D /* Pods_comet_chat_app.framework */,
+				2EBC0314C71683DB9DFD7FF1 /* Pods_comet_chat_app_comet_chat_appUITests.framework */,
+				65AE69566DF763924652BFBF /* Pods_comet_chat_appTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63AD0B09460B2AEA86BC76FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12F520514730752C7032584A /* Pods-comet-chat-app.debug.xcconfig */,
+				B4AE3D3F05661BA3B697A0FA /* Pods-comet-chat-app.release.xcconfig */,
+				2C5BA3E7307DABBCACC19C05 /* Pods-comet-chat-app-comet-chat-appUITests.debug.xcconfig */,
+				09FAC23F41467AB459E7ED67 /* Pods-comet-chat-app-comet-chat-appUITests.release.xcconfig */,
+				831FE2A7A0CBCC0908CE9B43 /* Pods-comet-chat-appTests.debug.xcconfig */,
+				A9752EDEC0D7979F7076F4C7 /* Pods-comet-chat-appTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		84CD5E1B2D12E5720057CB84 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +133,8 @@
 				84CD5E3D2D12E5730057CB84 /* comet-chat-appTests */,
 				84CD5E472D12E5730057CB84 /* comet-chat-appUITests */,
 				84CD5E252D12E5720057CB84 /* Products */,
+				63AD0B09460B2AEA86BC76FC /* Pods */,
+				5B0A222687C464ECCFFD4B99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84CD5E4D2D12E5730057CB84 /* Build configuration list for PBXNativeTarget "comet-chat-app" */;
 			buildPhases = (
+				6E58F93F0B2DA7790B2E3456 /* [CP] Check Pods Manifest.lock */,
 				84CD5E202D12E5720057CB84 /* Sources */,
 				84CD5E212D12E5720057CB84 /* Frameworks */,
 				84CD5E222D12E5720057CB84 /* Resources */,
+				94C43F177F6561A23CE61B7C /* [CP] Embed Pods Frameworks */,
+				4B59590DCBE4F33C0DECA964 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,8 +170,6 @@
 				84CD5E262D12E5720057CB84 /* comet-chat-app */,
 			);
 			name = "comet-chat-app";
-			packageProductDependencies = (
-			);
 			productName = "comet-chat-app";
 			productReference = 84CD5E242D12E5720057CB84 /* comet-chat-app.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84CD5E522D12E5730057CB84 /* Build configuration list for PBXNativeTarget "comet-chat-appTests" */;
 			buildPhases = (
+				0E1CB671C3B9DB946AA93CF9 /* [CP] Check Pods Manifest.lock */,
 				84CD5E362D12E5730057CB84 /* Sources */,
 				84CD5E372D12E5730057CB84 /* Frameworks */,
 				84CD5E382D12E5730057CB84 /* Resources */,
@@ -147,8 +192,6 @@
 				84CD5E3D2D12E5730057CB84 /* comet-chat-appTests */,
 			);
 			name = "comet-chat-appTests";
-			packageProductDependencies = (
-			);
 			productName = "comet-chat-appTests";
 			productReference = 84CD5E3A2D12E5730057CB84 /* comet-chat-appTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84CD5E552D12E5730057CB84 /* Build configuration list for PBXNativeTarget "comet-chat-appUITests" */;
 			buildPhases = (
+				E67D431A0208B22600B076B9 /* [CP] Check Pods Manifest.lock */,
 				84CD5E402D12E5730057CB84 /* Sources */,
 				84CD5E412D12E5730057CB84 /* Frameworks */,
 				84CD5E422D12E5730057CB84 /* Resources */,
+				DA07B4FEF28098482953F4AA /* [CP] Embed Pods Frameworks */,
+				5F9CFA28869D29994A2DDCE8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,8 +216,6 @@
 				84CD5E472D12E5730057CB84 /* comet-chat-appUITests */,
 			);
 			name = "comet-chat-appUITests";
-			packageProductDependencies = (
-			);
 			productName = "comet-chat-appUITests";
 			productReference = 84CD5E442D12E5730057CB84 /* comet-chat-appUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +288,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E1CB671C3B9DB946AA93CF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-comet-chat-appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B59590DCBE4F33C0DECA964 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-comet-chat-app/Pods-comet-chat-app-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-comet-chat-app/Pods-comet-chat-app-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-comet-chat-app/Pods-comet-chat-app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F9CFA28869D29994A2DDCE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-comet-chat-app-comet-chat-appUITests/Pods-comet-chat-app-comet-chat-appUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-comet-chat-app-comet-chat-appUITests/Pods-comet-chat-app-comet-chat-appUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-comet-chat-app-comet-chat-appUITests/Pods-comet-chat-app-comet-chat-appUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E58F93F0B2DA7790B2E3456 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-comet-chat-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C43F177F6561A23CE61B7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-comet-chat-app/Pods-comet-chat-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-comet-chat-app/Pods-comet-chat-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-comet-chat-app/Pods-comet-chat-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA07B4FEF28098482953F4AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-comet-chat-app-comet-chat-appUITests/Pods-comet-chat-app-comet-chat-appUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-comet-chat-app-comet-chat-appUITests/Pods-comet-chat-app-comet-chat-appUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-comet-chat-app-comet-chat-appUITests/Pods-comet-chat-app-comet-chat-appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E67D431A0208B22600B076B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-comet-chat-app-comet-chat-appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84CD5E202D12E5720057CB84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,6 +465,7 @@
 /* Begin XCBuildConfiguration section */
 		84CD5E4E2D12E5730057CB84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F520514730752C7032584A /* Pods-comet-chat-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +475,6 @@
 				INFOPLIST_FILE = "comet-chat-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +492,7 @@
 		};
 		84CD5E4F2D12E5730057CB84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4AE3D3F05661BA3B697A0FA /* Pods-comet-chat-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +502,6 @@
 				INFOPLIST_FILE = "comet-chat-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -373,7 +554,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -436,7 +617,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -457,6 +638,7 @@
 		};
 		84CD5E532D12E5730057CB84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831FE2A7A0CBCC0908CE9B43 /* Pods-comet-chat-appTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +657,7 @@
 		};
 		84CD5E542D12E5730057CB84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9752EDEC0D7979F7076F4C7 /* Pods-comet-chat-appTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -493,6 +676,7 @@
 		};
 		84CD5E562D12E5730057CB84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C5BA3E7307DABBCACC19C05 /* Pods-comet-chat-app-comet-chat-appUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -509,6 +693,7 @@
 		};
 		84CD5E572D12E5730057CB84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09FAC23F41467AB459E7ED67 /* Pods-comet-chat-app-comet-chat-appUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

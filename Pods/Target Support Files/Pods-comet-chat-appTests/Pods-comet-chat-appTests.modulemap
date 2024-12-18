@@ -1,0 +1,6 @@
+framework module Pods_comet_chat_appTests {
+  umbrella header "Pods-comet-chat-appTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
